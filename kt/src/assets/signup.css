@@ -1,0 +1,141 @@
+/* Signup.css */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+}
+
+.signup-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%; /* Поля занимают всю ширину */
+}
+
+.input-field {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%; /* Гарантируем одинаковую ширину */
+    max-width: 400px; /* Ограничение ширины */
+    box-sizing: border-box;
+}
+
+.full-width {
+    width: 100%;
+    max-width: 400px; /* Ограничение для адаптивности */
+}
+
+.submit-button {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%; /* Кнопка занимает всю ширину */
+    max-width: 400px; /* Ограничение ширины */
+}
+
+.submit-button:hover {
+    background: #2563eb;
+}
+
+.login-link {
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.divider {
+    margin: 20px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.divider::before {
+    content: 'или';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.google-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: white;
+    transition: background 0.3s;
+    width: 100%; /* Кнопка занимает всю ширину */
+    max-width: 400px; /* Ограничение ширины */
+}
+
+.google-button:hover {
+    background: #f3f3f3;
+}
+
+.google-logo {
+    width: 20px;
+    margin-right: 10px;
+}
