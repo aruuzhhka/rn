@@ -15,10 +15,6 @@ const Signup = () => {
             <input type="text" placeholder="Имя" className="input-field" />
             <input type="text" placeholder="Фамилия" className="input-field" />
           </div>
-          {/* <div className="input-group">
-            <input type="text" placeholder="Имя" className="input-field" />
-            <input type="text" placeholder="Фамилия" className="input-field" />
-          </div> */}
           <input
             type="email"
             placeholder="E-mail"
